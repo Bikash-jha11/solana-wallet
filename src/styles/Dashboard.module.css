@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+
+.main{
+    height:80%;
+    width:28%;
+    background-color: black;
+    border-radius: 8%;
+}
+
+.heading{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid  #868686;
+    
+}
+.icon1{
+    font-size: 22px;
+    margin-top:10px;
+}
+.btn{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+.name{
+    font-size: 20px;
+    font-weight:800;
+    margin-right:8px;
+}
+
+.middle_section{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.logo{
+    width:75%;
+    height:75%;
+    border-radius: 50%;
+    margin-top: 10%;
+
+
+}
+
+.bottom_section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom{
+ position:relative;
+ top:90px;
+ height:50px;
+ width: 350px;
+ border-radius: 20px;
+ background-color: #ab9ff2;
+ border:none;
+ outline:none;
+}
+
+.btn_text{
+    color:black;
+    font-size:20px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    font-weight: 600;
+}
+.top{
+    padding:8px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.keys{
+    height:270px;
+    overflow: scroll;
+}
+.key_text{
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.key_set{
+    background-color: #353935;
+    height: 50px;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    display:flex;
+    justify-content: space-between;
+     align-items: center;
+    padding:5px;
+    margin-top:10px;
+}
+
+.publicaddress{
+    overflow: hidden;
+    max-width: 80%;
+}
